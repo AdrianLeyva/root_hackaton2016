@@ -17,135 +17,75 @@
     <!--This project -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #E9E9E9">
+<body style="background-color: rgba(31, 31, 31, 0.99);">
 
     <div class="container">
-
-        <!--Cabecera de la pagina-->
-        <div class="row style-header">
-
-            <div class="col-md-6">
-                <h1>Evaluador de proyectos</h1>
-            </div>
-
-            <div class="col-md-6">
-                <a class="btn btn-primary btn-lg style-background-secundary" href="#" role="button" style="float: right;
-                    font-size: 15px">
-                    <i class="fa fa-male fa-2x" aria-hidden="true"></i>Modo emprendedor <br> (Cerrar sesión)
-                </a>
-
-            </div>
-
-        </div>
-        <!--Fin de cabecera de la pagina-->
-
-        <!--Slider de preguntas-->
-        <div class="row style-background-white">
+        <!--Header logo-->
+        <div class="row">
             <div class="col-md-12">
-                <!--Inicio jumbotron-->
-                <div class="jumbotron style-background-white">
-                    <div id="myCarousel" class="carousel slide">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
+                <img src="img/headeroficial.JPG" class="img-responsive">
+            </div>
+        </div><!--Fin header logo-->
 
-                            <!--Primer item del carousel-->
-                            <div class="active item">
-                                    <!--Barra de progreso-->
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                             aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
-                                            <span class="sr-only">10% Complete</span>
-                                        </div>
-                                    </div>
-                                    <!--Pregunta 1-->
-                                    <div>
-                                        <p class="style-questions">
-                                            <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                                            ¿Cuál es el nombre del proyecto?
-                                        </p>
-                                    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!--Carousel-->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 
-                                    <div>
-                                        <input type="text" class="form-control">
-                                    </div>
+                    </ol>
 
-                                    <!--Pregunta 2-->
-                                    <div style="margin-top: 40px">
-                                        <p class="style-questions">
-                                            <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                                            ¿Está asociado a alguna empresa?
-                                        </p>
-                                    </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/img5.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="img/img2.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="img/img4.png" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="img/img1.jpg" alt="...">
+                        </div>
+                    </div>
 
-                                    <div>
-                                        <p><input type="radio">Sí</p>
-                                    </div>
-
-                                    <div>
-                                        <p><input type="radio">No</p>
-                                    </div>
-                            </div>
-
-
-                            <!--Segundo item del carousel-->
-                            <div class="item">
-                                <!--Barra de progreso-->
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                         aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                        <span class="sr-only">20% Complete</span>
-                                    </div>
-                                </div>
-                                <!--Pregunta 3-->
-                                <div>
-                                    <p class="style-questions">
-                                        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                                        ¿A qué segmento de la sociedad está dirigido?
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <input type="text" class="form-control">
-                                </div>
-
-                                <!--Pregunta 4-->
-                                <div style="margin-top: 40px">
-                                    <p class="style-questions">
-                                        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                                        ¿Está asociado a alguna empresa?
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <p><input type="radio">Sí</p>
-                                </div>
-
-                                <div>
-                                    <p><input type="radio">No</p>
-                                </div>
-                            </div>
-
-                        </div><!--Fin carouser items-->
-                    </div> <!-- carousel -->
-                </div><!--FIn jumbotron-->
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
-                <button type="button" href="#myCarousel" class="btn btn-default" data-slide="prev">Left</button>
-                <button type="button" href="#myCarousel" class="btn btn-default" data-slide="next">Right</button>
+                <center>
+                    <div class="jumbotron">
+                        <h1>¡Hola emprendedor!</h1>
+                        <p>¿Tienes algún proyecto pero no sabes si vas por buen camino?<br>
+                            A través de esta plataforma podrás compartir el desarrollo de tu proyecto<br>
+                            para que nuestros evaluadores lo analicen y te den una retroalimentación,<br>
+                            de esta forma sabrás qué hace falta para que tu proyecto sea viable y eficiente.</p>
+
+                        <p><a class="btn btn-primary btn-lg style-button-begin" href="#" role="button">Comenzar</a></p>
+                    </div>
+                </center>
             </div>
         </div>
-
     </div>
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

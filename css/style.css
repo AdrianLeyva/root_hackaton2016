@@ -51,3 +51,9 @@ body{
     color: #ffffff;
     float:right;
 }
+
+.style-button-begin{
+    font-family: "Century Schoolbook L";
+    font-size: 30px;
+    color: #ffffff;
+}
