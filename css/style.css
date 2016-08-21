@@ -31,7 +31,7 @@ body{
 }
 
 .style-header{
-    background-color: #E64A19;
+    background-color: #ffc107;
     color: #ffffff;
     font-family: "Courier 10 Pitch";
 }
@@ -60,4 +60,11 @@ body{
     font-family: "Century Schoolbook L";
     font-size: 30px;
     color: #ffffff;
+    background-color: #4CAF50
+}
+
+.style-button-evaluador{
+    background-color: #560087;
+    color: #ffffff;
+    font-size: 25px;
 }
