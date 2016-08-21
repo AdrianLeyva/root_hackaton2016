@@ -1,0 +1,33 @@
+body{
+    color: #000000;}
+
+.style-primary-color{
+    color: #E64A19;
+
+}
+
+.style-secundary-color{
+    color: #536DFE;
+}
+
+.style-background-black{
+    background: #000000;
+}
+
+.style-background-white{
+    background: #ffffff;
+}
+
+.style-background-primary{
+    background-color: #E64A19;
+}
+
+.style-background-secundary{
+    background-color: #536DFE;;
+}
+
+.style-header{
+    background-color: #E64A19;
+    color: #ffffff;
+    font-family: "Courier 10 Pitch";
+}
