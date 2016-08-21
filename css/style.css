@@ -63,8 +63,21 @@ body{
     background-color: #4CAF50
 }
 
+.style-button-login{
+    background-color: #ffc107 ;
+    color: #000000;
+    font-family: "Century Schoolbook L";
+    font-size: 20px;
+}
+
 .style-button-evaluador{
     background-color: #560087;
     color: #ffffff;
     font-size: 25px;
+}
+
+.style-text-login{
+    color: #000000;
+    font-size: 25px;
+    font-family: Arial;
 }
