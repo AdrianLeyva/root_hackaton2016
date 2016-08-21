@@ -29,7 +29,7 @@
             </div>
 
             <div class="col-md-6">
-                <a class="btn btn-primary btn-lg style-background-secundary" href="#" role="button" style="float: right;
+                <a class="btn btn-primary btn-lg style-background-secundary" href="index.html" role="button" style="float: right;
                     font-size: 15px">
                     <i class="fa fa-male fa-2x" aria-hidden="true"></i>Modo emprendedor <br> (Cerrar sesión)
                 </a>
@@ -230,8 +230,8 @@
                                 </div>
 
                                 <div style="margin-top: 50px">
-                                    <button type="button" href="index.html" class="btn btn-default style-button-next"
-                                            data-slide="next" id="finalizar">Finalizar</button>
+                                    <a href="index.html"><button type="button" class="btn btn-default style-button-next"
+                                               data-slide="next" id="finalizar">Finalizar</button></a>
                                 </div>
                             </div>
 
@@ -277,12 +277,6 @@
             }else {
                 radioNO.checked = true;
             }
-        };
-    </script>
-    <script>
-        var buttonFinalizar = document.getElementById('finalizar');
-        buttonFinalizar.onclick = function () {
-            alert('¡Sus datos han sido enviados a nuestros evaluadores!');
         };
     </script>
 </body>
