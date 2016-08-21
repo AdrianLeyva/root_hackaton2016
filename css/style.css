@@ -26,6 +26,10 @@ body{
     background-color: #536DFE;;
 }
 
+.style-background-gray{
+    background-color: #E9E9E9;
+}
+
 .style-header{
     background-color: #E64A19;
     color: #ffffff;
@@ -50,4 +54,10 @@ body{
     background-color: #536DFE;
     color: #ffffff;
     float:right;
+}
+
+.style-button-begin{
+    font-family: "Century Schoolbook L";
+    font-size: 30px;
+    color: #ffffff;
 }
