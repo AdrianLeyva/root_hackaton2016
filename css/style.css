@@ -31,3 +31,23 @@ body{
     color: #ffffff;
     font-family: "Courier 10 Pitch";
 }
+
+.style-questions{
+    color: #000000;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.style-button-prev{
+    width: 150px;
+    background-color: #536DFE;
+    color: #ffffff;
+    float:left;
+}
+
+.style-button-next{
+    width: 150px;
+    background-color: #536DFE;
+    color: #ffffff;
+    float:right;
+}
